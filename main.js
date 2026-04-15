@@ -67,6 +67,7 @@ const ubahBahasa = (pilihan) => {
     .querySelector('.ig');
   const yt = document
     .querySelector('.yt');
+  const slWa = document.querySelector('.slWa');
   const gh = document
     .querySelector('.gh');
   const sw = document
@@ -147,6 +148,7 @@ const ubahBahasa = (pilihan) => {
       tt.innerHTML = 'TikTok';
       ig.innerHTML = 'Instagram';
       yt.innerHTML = 'YouTube';
+      slWa.innerHTML = 'Channel Wa';
       sw.innerHTML = 'Support';
       gh.innerHTML = 'Github';
       em.innerHTML = 'Email';
@@ -239,6 +241,7 @@ const ubahBahasa = (pilihan) => {
       tt.innerHTML = 'TikTok';
       ig.innerHTML = 'Instagram';
       yt.innerHTML = 'YouTube';
+      slWa.innerHTML = 'Saluran Wa';
       sw.innerHTML = 'Dukung';
       gh.innerHTML = 'Github';
       em.innerHTML = 'Email';
@@ -323,6 +326,7 @@ const ubahBahasa = (pilihan) => {
       tt.innerHTML = '抖音';
       ig.innerHTML = 'Instagram';
       yt.innerHTML = 'YouTube';
+      slWa.innerHTML = 'WA频道';
       gh.innerHTML = 'Github';
       sw.innerHTML = '支持';
       em.innerHTML = '电子邮件';
@@ -406,6 +410,7 @@ const ubahBahasa = (pilihan) => {
       tt.innerHTML = 'ティックトック';
       ig.innerHTML = 'インスタグラム';
       yt.innerHTML = 'ユーチューブ';
+      slWa.innerHTML = 'WhatsAppチャンネル';
       sw.innerHTML = 'サポート';
       em.innerHTML = '電子メール';
       gh.innerHTML = 'ギットハブ';
@@ -491,6 +496,7 @@ const ubahBahasa = (pilihan) => {
       tt.innerHTML = 'تيك توك';
       ig.innerHTML = 'انستغرام';
       yt.innerHTML = 'يوتيوب';
+      slWa.innerHTML = 'قناة واتساب';
       sw.innerHTML = 'يدعم';
       gh.innerHTML = 'جيثب';
       em.innerHTML =
@@ -583,6 +589,7 @@ const ubahBahasa = (pilihan) => {
       tt.innerHTML = 'тикток';
       ig.innerHTML = 'инстаграм';
       yt.innerHTML = 'ютуб';
+      slWa.innerHTML = 'канал WhatsApp';
       sw.innerHTML =
         'поддерживать';
       gh.innerHTML = 'гитхаб';
@@ -667,6 +674,7 @@ const ubahBahasa = (pilihan) => {
       tt.innerHTML = '틱톡';
       ig.innerHTML = '인스타그램';
       yt.innerHTML = '유튜브';
+      slWa.innerHTML = '왓츠앱 채널';
       sw.innerHTML = '지원하다';
       gh.innerHTML = '깃허브';
       em.innerHTML = '이메일';
@@ -806,6 +814,7 @@ const ig = document.querySelector(
   '.ig');
 const yt = document.querySelector(
   '.yt');
+const slWa = document.querySelector('.slWa');
 const sw = document.querySelector(
   '.sw');
 const gh = document.querySelector(
@@ -1024,6 +1033,30 @@ spans.forEach((span) => {
           '#090A05';
         yt.style.transition =
           'all .7s ease-in-out';
+        yt.addEventListener(
+  'mouseover', () => {
+    slWa.style.boxShadow =
+      '-4px -5px 3px #090A05';
+    slWa.style
+      .backgroundColor =
+      '#C1535A';
+  });
+slWa.addEventListener(
+  'mouseout', () => {
+    slWa.style.boxShadow =
+      '4px 5px 3px #090A05';
+    slWa.style
+      .backgroundColor =
+      '#C1535A';
+  });
+slWa.style.boxShadow =
+  '4px 5px 3px #090A05';
+slWa.style.backgroundColor =
+  '#C1535A';
+slWa.style.color =
+  '#090A05';
+slWa.style.transition =
+  'all .7s ease-in-out';
         sw.addEventListener(
           'mouseover', () => {
             sw.style.boxShadow =
@@ -1237,6 +1270,30 @@ spans.forEach((span) => {
           '#EFE5E5';
         yt.style.transition =
           'all .7s ease-in-out';
+        slWa.addEventListener(
+  'mouseover', () => {
+    slWa.style.boxShadow =
+      '-4px -5px 3px #EFE5E5';
+    slWa.style
+      .backgroundColor =
+      '#141414';
+  });
+slWa.addEventListener(
+  'mouseout', () => {
+    slWa.style.boxShadow =
+      '4px 5px 3px #EFE5E5';
+    slWa.style
+      .backgroundColor =
+      '#090A05';
+  });
+slWa.style.boxShadow =
+  '4px 5px 3px #EFE5E5';
+slWa.style.backgroundColor =
+  '#090A05';
+slWa.style.color =
+  '#EFE5E5';
+slWa.style.transition =
+  'all .7s ease-in-out';
         sw.addEventListener(
           'mouseover', () => {
             sw.style.boxShadow =
@@ -1460,7 +1517,31 @@ spans.forEach((span) => {
         yt.style.color =
           '#090A05';
         yt.style.transition =
-          'all .7s ease-in-out'
+          'all .7s ease-in-out';
+        slWa.addEventListener(
+  'mouseover', () => {
+    slWa.style.boxShadow =
+      '-4px -5px 3px #090A05';
+    slWa.style
+      .backgroundColor =
+      '#FFFFFF';
+  });
+slWa.addEventListener(
+  'mouseout', () => {
+    slWa.style.boxShadow =
+      '4px 5px 3px #090A05';
+    slWa.style
+      .backgroundColor =
+      '#FFFFFF';
+  });
+slWa.style.boxShadow =
+  '4px 5px 3px #090A05';
+slWa.style.backgroundColor =
+  '#FFFFFF';
+slWa.style.color =
+  '#090A05';
+slWa.style.transition =
+  'all .7s ease-in-out';
         sw.addEventListener(
           'mouseover', () => {
             sw.style.boxShadow =
@@ -1687,6 +1768,30 @@ spans.forEach((span) => {
           '#FFFFFF';
         yt.style.transition =
           'all .7s ease-in-out';
+          slWa.addEventListener(
+  'mouseover', () => {
+    slWa.style.boxShadow =
+      '-4px -5px 3px #090A05';
+    slWa.style
+      .backgroundColor =
+      '#616862';
+  });
+slWa.addEventListener(
+  'mouseout', () => {
+    slWa.style.boxShadow =
+      '4px 5px 3px #090A05';
+    slWa.style
+      .backgroundColor =
+      '#616862';
+  });
+slWa.style.boxShadow =
+  '4px 5px 3px #090A05';
+slWa.style.backgroundColor =
+  '#616862';
+slWa.style.color =
+  '#FFFFFF';
+slWa.style.transition =
+  'all .7s ease-in-out';
         sw.addEventListener(
           'mouseover', () => {
             sw.style.boxShadow =
@@ -1911,6 +2016,22 @@ spans.forEach((span) => {
           '#FFFFFF';
         yt.style.transition =
           'all .7s ease-in-out';
+          slWa.addEventListener(
+          'mouseout', () => {
+            slWa.style.boxShadow =
+              '4px 5px 3px #090A05';
+            slWa.style
+              .backgroundColor =
+              '#616862';
+          });
+        slWa.style.boxShadow =
+          '4px 5px 3px #090A05';
+        slWa.style.backgroundColor =
+          '#616862';
+        slWa.style.color =
+          '#FFFFFF';
+        slWa.style.transition =
+          'all .7s ease-in-out';
         sw.addEventListener(
           'mouseover', () => {
             sw.style.boxShadow =
@@ -2129,6 +2250,22 @@ spans.forEach((span) => {
         yt.style.color =
           '#EBEBEB';
         yt.style.transition =
+          'all .7s ease-in-out';
+          slWa.addEventListener(
+          'mouseout', () => {
+            slWa.style.boxShadow =
+              '4px 5px 3px #C1535A';
+            slWa.style
+              .backgroundColor =
+              '#0E0E0E';
+          });
+        slWa.style.boxShadow =
+          '4px 5px 3px #C1535A';
+        slWa.style.backgroundColor =
+          '#090A05';
+        slWa.style.color =
+          '#EBEBEB';
+        slWa.style.transition =
           'all .7s ease-in-out';
         sw.addEventListener(
           'mouseover', () => {
