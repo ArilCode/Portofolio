@@ -1,7 +1,5 @@
 const a = document.querySelector(
   '.a');
-  
-  document.getElementById("year").textContent = new Date().getFullYear();
 
 let timer = null;
 let bahasa = 'Indonesia';
@@ -2727,3 +2725,7 @@ window.addEventListener('scroll',
     setProgress(scrollPercent);
   });
 setProgress(0);
+
+let year = document.getElementById("year");
+
+year.textContent = new Date().getFullYear();
