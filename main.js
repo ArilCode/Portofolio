@@ -1,5 +1,7 @@
 const a = document.querySelector(
   '.a');
+  
+  document.getElementById("year").textContent = new Date().getFullYear();
 
 let timer = null;
 let bahasa = 'Indonesia';
@@ -164,9 +166,9 @@ const ubahBahasa = (pilihan) => {
         .innerHTML =
         'Support Friends';
       footer.innerHTML =
-        'All copyrights are protected by law';
+        'All rights reserved';
       fotA.innerHTML =
-        '@Aril_Hidayat';
+        '@ArilHidayat';
       timer = setTimeout(() => {
         a.style.transition =
           'all .7s ease-in-out';
@@ -258,9 +260,9 @@ const ubahBahasa = (pilihan) => {
         .innerHTML =
         'Teman penyemangat';
       footer.innerHTML =
-        'Semua hak cipta dilindungi undang-undang';
+        'Semua hak cipta dilindungi';
       fotA.innerHTML =
-        '@Aril_Hidayat';
+        '@ArilHidayat';
       timer = setTimeout(() => {
         a.style.transition =
           'all .7s ease-in-out';
@@ -339,7 +341,7 @@ const ubahBahasa = (pilihan) => {
         .innerHTML =
         '鼓励朋友';
       footer.innerHTML =
-        '所有版权均受法律保护';
+        '版权所有';
       fotA.innerHTML =
         '@艾丽尔 希达亚特';
       timer = setTimeout(() => {
@@ -423,7 +425,7 @@ const ubahBahasa = (pilihan) => {
         .innerHTML =
         '励ましの友人';
       footer.innerHTML =
-        'すべての著作権は法律で保護されています';
+        '無断転載を禁じます';
       fotA.innerHTML =
         '@アリル・ヒダヤト';
       timer = setTimeout(() => {
@@ -512,7 +514,7 @@ const ubahBahasa = (pilihan) => {
         .innerHTML =
         'صديق التشجيع';
       footer.innerHTML =
-        'جميع حقوق الطبع والنشر محمية بموجب القانون';
+        'جميع الحقوق محفوظة';
       fotA.innerHTML =
         '@أريل هداية';
       timer = setTimeout(() => {
@@ -605,7 +607,7 @@ const ubahBahasa = (pilihan) => {
         .innerHTML =
         'Поддерживающий друг';
       footer.innerHTML =
-        'Все авторские права защищены законом.';
+        'Все права защищены';
       fotA.innerHTML =
         '@Арил Хидаят';
       timer = setTimeout(() => {
@@ -687,7 +689,7 @@ const ubahBahasa = (pilihan) => {
         .innerHTML =
         '격려하는 친구';
       footer.innerHTML =
-        '모든 저작권은 법률에 의해 보호됩니다';
+        '모든 권리 보유';
       fotA.innerHTML = '@아릴_히다야트';
       timer = setTimeout(() => {
         a.style.transition =
