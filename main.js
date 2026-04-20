@@ -103,6 +103,7 @@ const ubahBahasa = (pilihan) => {
         '8px';
       subtitle.style.width =
         '100px';
+      subtitle.style.height = '50px';
       subtitle.style.marginLeft =
         '-100px';
       dropdown.style.width =
@@ -197,6 +198,7 @@ const ubahBahasa = (pilihan) => {
         '9px';
       subtitle.style.width =
         '150px';
+      subtitle.style.height ='50px';
       subtitle.style.marginLeft =
         '-150px';
       dropdown.style.width =
@@ -289,6 +291,7 @@ const ubahBahasa = (pilihan) => {
         '9px';
       subtitle.style.width =
         '80px';
+      subtitle.style.height = '35px';
       subtitle.style.marginLeft =
         '-80px';
       dropdown.style.width =
@@ -372,6 +375,7 @@ const ubahBahasa = (pilihan) => {
         '8px';
       subtitle.style.width =
         '145px';
+      subtitle.style.height = '35px';
       subtitle.style.marginLeft =
         '-145px';
       dropdown.style.width =
@@ -456,6 +460,7 @@ const ubahBahasa = (pilihan) => {
         '8px';
       subtitle.style.width =
         '120px';
+      subtitle.style.height = '35px';
       subtitle.style.marginLeft =
         '-120px';
       dropdown.style.width =
@@ -544,7 +549,8 @@ const ubahBahasa = (pilihan) => {
       subtitle.style.paddingLeft =
         '9px';
       subtitle.style.width =
-        '150px';
+        '140px';
+      subtitle.style.height = '35px';
       subtitle.style.marginLeft =
         '-150px';
       dropdown.style.width =
@@ -638,6 +644,7 @@ const ubahBahasa = (pilihan) => {
         '9px';
       subtitle.style.width =
         '100px';
+      subtitle.style.height = '35px';
       subtitle.style.marginLeft =
         '-100px';
       dropdown.style.width =
@@ -1033,7 +1040,7 @@ spans.forEach((span) => {
           '#090A05';
         yt.style.transition =
           'all .7s ease-in-out';
-        yt.addEventListener(
+        slWa.addEventListener(
   'mouseover', () => {
     slWa.style.boxShadow =
       '-4px -5px 3px #090A05';
